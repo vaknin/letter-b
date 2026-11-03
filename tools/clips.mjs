@@ -7,7 +7,7 @@
 // ---- the voice: change these three, or override them on the command line as above ----
 const VOICE = process.env.VOICE || 'en-US-AnaNeural';
 const PITCH = process.env.PITCH || '-15Hz';
-const RATE = process.env.RATE || '-15%';
+const RATE = process.env.RATE || '-20%';
 // ----
 
 import { readFileSync, writeFileSync, mkdtempSync, rmSync } from 'fs';
