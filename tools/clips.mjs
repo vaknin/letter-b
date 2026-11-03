@@ -6,8 +6,8 @@
 // Silence at both ends is cut so a clip starts the moment it's asked for.
 // ---- the voice: change these three, or override them on the command line as above ----
 const VOICE = process.env.VOICE || 'en-US-AnaNeural';
-const PITCH = process.env.PITCH || '+0Hz';
-const RATE = process.env.RATE || '+0%';
+const PITCH = process.env.PITCH || '-15Hz';
+const RATE = process.env.RATE || '-15%';
 // ----
 
 import { readFileSync, writeFileSync, mkdtempSync, rmSync } from 'fs';
