@@ -1,0 +1,97 @@
+<!doctype html>
+<!-- Template for voices-pick.html: tools/takes.py page fills ROWS with every take as base64 mp3. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pick the voice – letter B</title>
+<style>
+:root{--bg:#fff8ec;--ink:#2b2340;--muted:#6f6a86;--pick:#22b573;--play:#7357ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:150px}
+header{padding:16px 14px 6px;max-width:760px;margin:auto}
+h1{font-size:22px;margin:0 0 4px}
+header p{margin:4px 0;color:var(--muted);font-size:14px}
+h2{max-width:760px;margin:22px auto 6px;padding:0 14px;font-size:18px}
+.row{max-width:760px;margin:10px auto;background:#fff;border-radius:18px;padding:12px;box-shadow:0 3px 0 #f0e4cc}
+.top{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.word{font-size:21px;font-weight:800;flex:1;min-width:0}
+.key{font-size:12px;color:var(--muted);font-weight:700;background:#f4efe4;border-radius:999px;padding:2px 8px}
+.all{border:0;border-radius:999px;background:#efeaff;color:var(--play);font-weight:800;font-size:14px;padding:8px 12px}
+.takes{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.take{display:flex;flex-direction:column;gap:6px}
+.take button{border:0;font-weight:900;border-radius:14px;width:100%}
+.play{height:56px;font-size:20px;background:var(--play);color:#fff}
+.play.on{outline:4px solid #ffd23f}
+.sel{height:34px;font-size:13px;background:#f4efe4;color:var(--muted)}
+.take.picked .sel{background:var(--pick);color:#fff}
+.take.picked .play{box-shadow:0 0 0 4px var(--pick)}
+.row.done{box-shadow:0 3px 0 #bfe9d3}
+[dir=rtl] .word{font-family:"Noto Sans Hebrew",Arial,sans-serif}
+#bar{position:fixed;left:0;right:0;bottom:0;background:#2b2340;color:#fff;padding:10px 12px calc(10px + env(safe-area-inset-bottom))}
+#bar .in{max-width:760px;margin:auto;display:flex;flex-direction:column;gap:8px}
+#sum{font-weight:700;font-size:15px;word-break:break-word;min-height:1.4em}
+#sum.empty{color:#b9b3cf;font-weight:500}
+#copy{border:0;border-radius:14px;height:52px;font-size:19px;font-weight:900;background:#ffd23f;color:#2b2340}
+</style>
+</head>
+<body>
+<header>
+  <h1>Pick the best take of every word</h1>
+  <p>One voice ({{VOICE}}, OmniVoice). Tap ▶ to hear a take, tap <b>pick</b> under the one you like. ▶ all plays the row.</p>
+  <p>When you're done, tap <b>Copy</b> and paste it in the tab.</p>
+</header>
+<main id="list"></main>
+<div id="bar"><div class="in"><div id="sum" class="empty">Nothing picked yet</div><button id="copy">Copy</button></div></div>
+<script>
+const ROWS = /*ROWS*/[];
+const picks = {}, aud = new Audio();
+let playing = null, chain = 0;
+const $ = (s, e = document) => e.querySelector(s);
+function play(btn, src) {
+  chain++; aud.pause(); document.querySelectorAll(".play.on").forEach(b => b.classList.remove("on"));
+  aud.src = src; btn.classList.add("on"); playing = btn;
+  return aud.play().catch(() => {}).then(() => new Promise(r => { const c = chain; aud.onended = () => { btn.classList.remove("on"); r(c === chain); }; }));
+}
+function summary() {
+  const s = ROWS.filter(r => picks[r.key]).map(r => `${r.key} ${picks[r.key]}`).join(" · ");
+  const el = $("#sum"); el.textContent = s || "Nothing picked yet"; el.classList.toggle("empty", !s);
+  $("#copy").textContent = "Copy";
+}
+let section = "";
+for (const r of ROWS) {
+  const sec = { word: "Words", sentence: "Sentences", he: "עברית – הוראות ופירושי מילים" }[r.kind];
+  if (sec !== section) { section = sec; const h = document.createElement("h2"); h.textContent = sec; if (r.lang === "he") h.dir = "rtl"; $("#list").append(h); }
+  const row = document.createElement("section"); row.className = "row"; row.dataset.key = r.key;
+  if (r.lang === "he") { row.dir = "rtl"; row.lang = "he"; }
+  row.innerHTML = `<div class="top"><div class="word"></div><span class="key">${r.key}</span><button class="all">▶ all</button></div><div class="takes"></div>`;
+  $(".word", row).textContent = r.text;
+  const takes = $(".takes", row);
+  r.takes.forEach((src, k) => {
+    const t = document.createElement("div"); t.className = "take";
+    t.innerHTML = `<button class="play" aria-label="Play take ${k + 1}">▶ ${k + 1}</button><button class="sel">pick</button>`;
+    $(".play", t).onclick = () => play($(".play", t), src);
+    $(".sel", t).onclick = () => {
+      const was = picks[r.key] === k + 1;
+      takes.querySelectorAll(".take").forEach(x => { x.classList.remove("picked"); $(".sel", x).textContent = "pick"; });
+      if (was) delete picks[r.key]; else { picks[r.key] = k + 1; t.classList.add("picked"); $(".sel", t).textContent = "✓ picked"; }
+      row.classList.toggle("done", !!picks[r.key]); summary();
+    };
+    takes.append(t);
+  });
+  $(".all", row).onclick = async () => {
+    const btns = takes.querySelectorAll(".play");
+    for (let k = 0; k < r.takes.length; k++) { if (!(await play(btns[k], r.takes[k]))) break; await new Promise(z => setTimeout(z, 350)); }
+  };
+  $("#list").append(row);
+}
+$("#copy").onclick = async () => {
+  const s = $("#sum").classList.contains("empty") ? "" : $("#sum").textContent;
+  if (!s) return;
+  try { await navigator.clipboard.writeText(s); }
+  catch (e) { const ta = document.createElement("textarea"); ta.value = s; document.body.append(ta); ta.select(); document.execCommand("copy"); ta.remove(); }
+  $("#copy").textContent = "Copied – paste it in the tab";
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,1092 @@
+{
+ "book 1": {
+  "text": "book",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "book-1.mp3",
+  "secs": null,
+  "heard": "book.",
+  "score": 1.0
+ },
+ "book 2": {
+  "text": "book",
+  "lang": "en",
+  "style": 2,
+  "seed": 12,
+  "file": "book-2.mp3",
+  "secs": null,
+  "heard": "Book.",
+  "score": 1.0
+ },
+ "book 3": {
+  "text": "book",
+  "lang": "en",
+  "style": 3,
+  "seed": 23,
+  "file": "book-3.mp3",
+  "secs": null,
+  "heard": "book",
+  "score": 1.0
+ },
+ "book 4": {
+  "text": "book",
+  "lang": "en",
+  "style": 4,
+  "seed": 4,
+  "file": "book-4.mp3",
+  "secs": null,
+  "heard": "Book!",
+  "score": 1.0
+ },
+ "book 5": {
+  "text": "book",
+  "lang": "en",
+  "style": 5,
+  "seed": 5,
+  "file": "book-5.mp3",
+  "secs": null,
+  "heard": "Book",
+  "score": 1.0
+ },
+ "bag 1": {
+  "text": "bag",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "bag-1.mp3",
+  "secs": null,
+  "heard": "Bag.",
+  "score": 1.0
+ },
+ "bag 2": {
+  "text": "bag",
+  "lang": "en",
+  "style": 2,
+  "seed": 2,
+  "file": "bag-2.mp3",
+  "secs": null,
+  "heard": "Bag.",
+  "score": 1.0
+ },
+ "bag 3": {
+  "text": "bag",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "bag-3.mp3",
+  "secs": null,
+  "heard": "Bag.",
+  "score": 1.0
+ },
+ "bag 4": {
+  "text": "bag",
+  "lang": "en",
+  "style": 4,
+  "seed": 4,
+  "file": "bag-4.mp3",
+  "secs": null,
+  "heard": "Bag.",
+  "score": 1.0
+ },
+ "bag 5": {
+  "text": "bag",
+  "lang": "en",
+  "style": 5,
+  "seed": 35,
+  "file": "bag-5.mp3",
+  "secs": null,
+  "heard": "Bag.",
+  "score": 1.0
+ },
+ "ball 1": {
+  "text": "ball",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "ball-1.mp3",
+  "secs": null,
+  "heard": "Ball.",
+  "score": 1.0
+ },
+ "ball 2": {
+  "text": "ball",
+  "lang": "en",
+  "style": 2,
+  "seed": 2,
+  "file": "ball-2.mp3",
+  "secs": null,
+  "heard": "Ball.",
+  "score": 1.0
+ },
+ "ball 3": {
+  "text": "ball",
+  "lang": "en",
+  "style": 3,
+  "seed": 33,
+  "file": "ball-3.mp3",
+  "secs": null,
+  "heard": "Ball.",
+  "score": 1.0
+ },
+ "ball 4": {
+  "text": "ball",
+  "lang": "en",
+  "style": 4,
+  "seed": 4,
+  "file": "ball-4.mp3",
+  "secs": null,
+  "heard": "Ball",
+  "score": 1.0
+ },
+ "ball 5": {
+  "text": "ball",
+  "lang": "en",
+  "style": 5,
+  "seed": 5,
+  "file": "ball-5.mp3",
+  "secs": null,
+  "heard": "Ball.",
+  "score": 1.0
+ },
+ "bus 1": {
+  "text": "bus",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "bus-1.mp3",
+  "secs": null,
+  "heard": "BUS",
+  "score": 1.0
+ },
+ "bus 2": {
+  "text": "bus",
+  "lang": "en",
+  "style": 2,
+  "seed": 2,
+  "file": "bus-2.mp3",
+  "secs": null,
+  "heard": "BUS!",
+  "score": 1.0
+ },
+ "bus 3": {
+  "text": "bus",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "bus-3.mp3",
+  "secs": null,
+  "heard": "BUS",
+  "score": 1.0
+ },
+ "bus 4": {
+  "text": "bus",
+  "lang": "en",
+  "style": 4,
+  "seed": 4,
+  "file": "bus-4.mp3",
+  "secs": null,
+  "heard": "Bus",
+  "score": 1.0
+ },
+ "bus 5": {
+  "text": "bus",
+  "lang": "en",
+  "style": 5,
+  "seed": 5,
+  "file": "bus-5.mp3",
+  "secs": null,
+  "heard": "BUS",
+  "score": 1.0
+ },
+ "banana 1": {
+  "text": "banana",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "banana-1.mp3",
+  "secs": null,
+  "heard": "Banana.",
+  "score": 1.0
+ },
+ "banana 2": {
+  "text": "banana",
+  "lang": "en",
+  "style": 2,
+  "seed": 2,
+  "file": "banana-2.mp3",
+  "secs": null,
+  "heard": "Banana.",
+  "score": 1.0
+ },
+ "banana 3": {
+  "text": "banana",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "banana-3.mp3",
+  "secs": null,
+  "heard": "Banana.",
+  "score": 1.0
+ },
+ "banana 4": {
+  "text": "banana",
+  "lang": "en",
+  "style": 4,
+  "seed": 4,
+  "file": "banana-4.mp3",
+  "secs": null,
+  "heard": "Banana.",
+  "score": 1.0
+ },
+ "banana 5": {
+  "text": "banana",
+  "lang": "en",
+  "style": 5,
+  "seed": 5,
+  "file": "banana-5.mp3",
+  "secs": null,
+  "heard": "Banana!",
+  "score": 1.0
+ },
+ "balloon 1": {
+  "text": "balloon",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "balloon-1.mp3",
+  "secs": null,
+  "heard": "Balloon",
+  "score": 1.0
+ },
+ "balloon 2": {
+  "text": "balloon",
+  "lang": "en",
+  "style": 2,
+  "seed": 2,
+  "file": "balloon-2.mp3",
+  "secs": null,
+  "heard": "Balloon!",
+  "score": 1.0
+ },
+ "balloon 3": {
+  "text": "balloon",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "balloon-3.mp3",
+  "secs": null,
+  "heard": "Balloon",
+  "score": 1.0
+ },
+ "balloon 4": {
+  "text": "balloon",
+  "lang": "en",
+  "style": 4,
+  "seed": 4,
+  "file": "balloon-4.mp3",
+  "secs": null,
+  "heard": "Balloon",
+  "score": 1.0
+ },
+ "balloon 5": {
+  "text": "balloon",
+  "lang": "en",
+  "style": 5,
+  "seed": 5,
+  "file": "balloon-5.mp3",
+  "secs": null,
+  "heard": "Balloon",
+  "score": 1.0
+ },
+ "cat 1": {
+  "text": "cat",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "cat-1.mp3",
+  "secs": null,
+  "heard": "Cat.",
+  "score": 1.0
+ },
+ "cat 2": {
+  "text": "cat",
+  "lang": "en",
+  "style": 2,
+  "seed": 2,
+  "file": "cat-2.mp3",
+  "secs": null,
+  "heard": "Cat.",
+  "score": 1.0
+ },
+ "cat 3": {
+  "text": "cat",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "cat-3.mp3",
+  "secs": null,
+  "heard": "Cat.",
+  "score": 1.0
+ },
+ "cat 4": {
+  "text": "cat",
+  "lang": "en",
+  "style": 4,
+  "seed": 4,
+  "file": "cat-4.mp3",
+  "secs": null,
+  "heard": "Cat.",
+  "score": 1.0
+ },
+ "cat 5": {
+  "text": "cat",
+  "lang": "en",
+  "style": 5,
+  "seed": 5,
+  "file": "cat-5.mp3",
+  "secs": null,
+  "heard": "Cat",
+  "score": 1.0
+ },
+ "dog 1": {
+  "text": "dog",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "dog-1.mp3",
+  "secs": null,
+  "heard": "Dog.",
+  "score": 1.0
+ },
+ "dog 2": {
+  "text": "dog",
+  "lang": "en",
+  "style": 2,
+  "seed": 2,
+  "file": "dog-2.mp3",
+  "secs": null,
+  "heard": "Dog.",
+  "score": 1.0
+ },
+ "dog 3": {
+  "text": "dog",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "dog-3.mp3",
+  "secs": null,
+  "heard": "dog",
+  "score": 1.0
+ },
+ "dog 4": {
+  "text": "dog",
+  "lang": "en",
+  "style": 4,
+  "seed": 34,
+  "file": "dog-4.mp3",
+  "secs": null,
+  "heard": "DOG!",
+  "score": 1.0
+ },
+ "dog 5": {
+  "text": "dog",
+  "lang": "en",
+  "style": 5,
+  "seed": 25,
+  "file": "dog-5.mp3",
+  "secs": null,
+  "heard": "Dog?",
+  "score": 1.0
+ },
+ "sun 1": {
+  "text": "sun",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "sun-1.mp3",
+  "secs": null,
+  "heard": "Sun",
+  "score": 1.0
+ },
+ "sun 2": {
+  "text": "sun",
+  "lang": "en",
+  "style": 2,
+  "seed": 12,
+  "file": "sun-2.mp3",
+  "secs": null,
+  "heard": "Sun",
+  "score": 1.0
+ },
+ "sun 3": {
+  "text": "sun",
+  "lang": "en",
+  "style": 3,
+  "seed": 13,
+  "file": "sun-3.mp3",
+  "secs": null,
+  "heard": "sun",
+  "score": 1.0
+ },
+ "sun 4": {
+  "text": "sun",
+  "lang": "en",
+  "style": 4,
+  "seed": 4,
+  "file": "sun-4.mp3",
+  "secs": null,
+  "heard": "Sun",
+  "score": 1.0
+ },
+ "sun 5": {
+  "text": "sun",
+  "lang": "en",
+  "style": 5,
+  "seed": 25,
+  "file": "sun-5.mp3",
+  "secs": null,
+  "heard": "Sun",
+  "score": 1.0
+ },
+ "fish 1": {
+  "text": "fish",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "fish-1.mp3",
+  "secs": null,
+  "heard": "Fish.",
+  "score": 1.0
+ },
+ "fish 2": {
+  "text": "fish",
+  "lang": "en",
+  "style": 2,
+  "seed": 42,
+  "file": "fish-2.mp3",
+  "secs": null,
+  "heard": "Fish",
+  "score": 1.0
+ },
+ "fish 3": {
+  "text": "fish",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "fish-3.mp3",
+  "secs": null,
+  "heard": "Fish.",
+  "score": 1.0
+ },
+ "fish 4": {
+  "text": "fish",
+  "lang": "en",
+  "style": 4,
+  "seed": 4,
+  "file": "fish-4.mp3",
+  "secs": null,
+  "heard": "Fish",
+  "score": 1.0
+ },
+ "fish 5": {
+  "text": "fish",
+  "lang": "en",
+  "style": 5,
+  "seed": 5,
+  "file": "fish-5.mp3",
+  "secs": null,
+  "heard": "Fish.",
+  "score": 1.0
+ },
+ "apple 1": {
+  "text": "apple",
+  "lang": "en",
+  "style": 1,
+  "seed": 31,
+  "file": "apple-1.mp3",
+  "secs": null,
+  "heard": "Apple.",
+  "score": 1.0
+ },
+ "apple 2": {
+  "text": "apple",
+  "lang": "en",
+  "style": 2,
+  "seed": 22,
+  "file": "apple-2.mp3",
+  "secs": null,
+  "heard": "Apple.",
+  "score": 1.0
+ },
+ "apple 3": {
+  "text": "apple",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "apple-3.mp3",
+  "secs": null,
+  "heard": "Apple",
+  "score": 1.0
+ },
+ "apple 4": {
+  "text": "apple",
+  "lang": "en",
+  "style": 4,
+  "seed": 34,
+  "file": "apple-4.mp3",
+  "secs": null,
+  "heard": "Apple!",
+  "score": 1.0
+ },
+ "apple 5": {
+  "text": "apple",
+  "lang": "en",
+  "style": 5,
+  "seed": 5,
+  "file": "apple-5.mp3",
+  "secs": null,
+  "heard": "Apple",
+  "score": 1.0
+ },
+ "what 1": {
+  "text": "What is it?",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "what-1.mp3",
+  "secs": null,
+  "heard": "What is it?",
+  "score": 1.0
+ },
+ "what 2": {
+  "text": "What is it?",
+  "lang": "en",
+  "style": 2,
+  "seed": 12,
+  "file": "what-2.mp3",
+  "secs": null,
+  "heard": "What is it?",
+  "score": 1.0
+ },
+ "what 3": {
+  "text": "What is it?",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "what-3.mp3",
+  "secs": null,
+  "heard": "What is it?",
+  "score": 1.0
+ },
+ "itsa 1": {
+  "text": "It's a ball.",
+  "lang": "en",
+  "style": 1,
+  "seed": 1,
+  "file": "itsa-1.mp3",
+  "secs": null,
+  "heard": "It's a ball.",
+  "score": 1.0
+ },
+ "itsa 2": {
+  "text": "It's a ball.",
+  "lang": "en",
+  "style": 2,
+  "seed": 52,
+  "file": "itsa-2.mp3",
+  "secs": null,
+  "heard": "It's a ball.",
+  "score": 1.0
+ },
+ "itsa 3": {
+  "text": "It's a ball.",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "itsa-3.mp3",
+  "secs": null,
+  "heard": "It's a ball.",
+  "score": 1.0
+ },
+ "pop 1": {
+  "text": "Pop the... balloon!",
+  "lang": "en",
+  "style": 1,
+  "seed": 21,
+  "file": "pop-1.mp3",
+  "secs": null,
+  "heard": "Pop the balloon.",
+  "score": 1.0
+ },
+ "pop 2": {
+  "text": "Pop the... balloon!",
+  "lang": "en",
+  "style": 2,
+  "seed": 12,
+  "file": "pop-2.mp3",
+  "secs": null,
+  "heard": "Pop the balloon.",
+  "score": 1.0
+ },
+ "pop 3": {
+  "text": "Pop the... balloon!",
+  "lang": "en",
+  "style": 3,
+  "seed": 3,
+  "file": "pop-3.mp3",
+  "secs": null,
+  "heard": "Pop the balloon.",
+  "score": 1.0
+ },
+ "buh 1": {
+  "text": "B. Buh.",
+  "lang": "en",
+  "style": 1,
+  "seed": 11,
+  "file": "buh-1.mp3",
+  "secs": null,
+  "heard": "B. Buh.",
+  "score": 1.0
+ },
+ "buh 2": {
+  "text": "B. Buh.",
+  "lang": "en",
+  "style": 2,
+  "seed": 72,
+  "file": "buh-2.mp3",
+  "secs": null,
+  "heard": "B, buh.",
+  "score": 1.0
+ },
+ "buh 3": {
+  "text": "B. Buh.",
+  "lang": "en",
+  "style": 3,
+  "seed": 43,
+  "file": "buh-3.mp3",
+  "secs": null,
+  "heard": "Be. Buh.",
+  "score": 0.89
+ },
+ "he1 1": {
+  "text": "אגודל למעלה – מתחיל בצליל בּ",
+  "lang": "he",
+  "style": 1,
+  "seed": 41,
+  "file": "he1-1.mp3",
+  "secs": null,
+  "heard": "הגדול למעלה התחיל בצליל ב...",
+  "score": 0.86
+ },
+ "he1 2": {
+  "text": "אגודל למעלה – מתחיל בצליל בּ",
+  "lang": "he",
+  "style": 2,
+  "seed": 22,
+  "file": "he1-2.mp3",
+  "secs": null,
+  "heard": "הגבול למעלה מתחיל בצליל ב...",
+  "score": 0.9
+ },
+ "he1 3": {
+  "text": "אגודל למעלה – מתחיל בצליל בּ",
+  "lang": "he",
+  "style": 3,
+  "seed": 53,
+  "file": "he1-3.mp3",
+  "secs": null,
+  "heard": "הגודל למה התחול בצליל ב.",
+  "score": 0.8
+ },
+ "he2 1": {
+  "text": "תסתכלו על המורה!",
+  "lang": "he",
+  "style": 1,
+  "seed": 1,
+  "file": "he2-1.mp3",
+  "secs": null,
+  "heard": "תקנו על המורה",
+  "score": 0.75
+ },
+ "he2 2": {
+  "text": "תסתכלו על המורה!",
+  "lang": "he",
+  "style": 2,
+  "seed": 2,
+  "file": "he2-2.mp3",
+  "secs": null,
+  "heard": "תכנו על המורה.",
+  "score": 0.83
+ },
+ "he2 3": {
+  "text": "תסתכלו על המורה!",
+  "lang": "he",
+  "style": 3,
+  "seed": 3,
+  "file": "he2-3.mp3",
+  "secs": null,
+  "heard": "תקנו על המורה.",
+  "score": 0.75
+ },
+ "he3 1": {
+  "text": "כשהמוזיקה נעצרת – מי שמחזיק את הכדור אומר את המילה",
+  "lang": "he",
+  "style": 1,
+  "seed": 1,
+  "file": "he3-1.mp3",
+  "secs": null,
+  "heard": "כשמוזיקה נעצרת, מי שמחליק את הכדור אומר את המילה.",
+  "score": 0.96
+ },
+ "he3 2": {
+  "text": "כשהמוזיקה נעצרת – מי שמחזיק את הכדור אומר את המילה",
+  "lang": "he",
+  "style": 2,
+  "seed": 2,
+  "file": "he3-2.mp3",
+  "secs": null,
+  "heard": "כשמוזיקה נעצרת, מי שמחליק את הכדור אומר את המילה.",
+  "score": 0.96
+ },
+ "he3 3": {
+  "text": "כשהמוזיקה נעצרת – מי שמחזיק את הכדור אומר את המילה",
+  "lang": "he",
+  "style": 3,
+  "seed": 3,
+  "file": "he3-3.mp3",
+  "secs": null,
+  "heard": "כשמוזיקה נעצרת מי שמחליק את החדור אומר את המילה.",
+  "score": 0.94
+ },
+ "he4 1": {
+  "text": "אות גדולה, אות קטנה",
+  "lang": "he",
+  "style": 1,
+  "seed": 11,
+  "file": "he4-1.mp3",
+  "secs": null,
+  "heard": "מוד גולאות קטנה",
+  "score": 0.79
+ },
+ "he4 2": {
+  "text": "אות גדולה, אות קטנה",
+  "lang": "he",
+  "style": 2,
+  "seed": 2,
+  "file": "he4-2.mp3",
+  "secs": null,
+  "heard": "מוט גדולה, אות קטנה.",
+  "score": 0.87
+ },
+ "he4 3": {
+  "text": "אות גדולה, אות קטנה",
+  "lang": "he",
+  "style": 3,
+  "seed": 13,
+  "file": "he4-3.mp3",
+  "secs": null,
+  "heard": "מות גדולה עוד קטנה.",
+  "score": 0.8
+ },
+ "he5 1": {
+  "text": "סדרו את האותיות לפי הסדר",
+  "lang": "he",
+  "style": 1,
+  "seed": 41,
+  "file": "he5-1.mp3",
+  "secs": null,
+  "heard": "סדרו את האותיות לפי הסדח.",
+  "score": 0.95
+ },
+ "he5 2": {
+  "text": "סדרו את האותיות לפי הסדר",
+  "lang": "he",
+  "style": 2,
+  "seed": 2,
+  "file": "he5-2.mp3",
+  "secs": null,
+  "heard": "סדרו את האותיות לפי הסדר.",
+  "score": 1.0
+ },
+ "he5 3": {
+  "text": "סדרו את האותיות לפי הסדר",
+  "lang": "he",
+  "style": 3,
+  "seed": 13,
+  "file": "he5-3.mp3",
+  "secs": null,
+  "heard": "סדרו את האותיות לפי הסדר.",
+  "score": 1.0
+ },
+ "he6 1": {
+  "text": "נכון – קמים. לא נכון – נשארים לשבת",
+  "lang": "he",
+  "style": 1,
+  "seed": 1,
+  "file": "he6-1.mp3",
+  "secs": null,
+  "heard": "נכון קמים, לא נכון נשארים לשבט.",
+  "score": 0.96
+ },
+ "he6 2": {
+  "text": "נכון – קמים. לא נכון – נשארים לשבת",
+  "lang": "he",
+  "style": 2,
+  "seed": 2,
+  "file": "he6-2.mp3",
+  "secs": null,
+  "heard": "נכון קמים, לא נכון נשארים לשבט.",
+  "score": 0.96
+ },
+ "he6 3": {
+  "text": "נכון – קמים. לא נכון – נשארים לשבת",
+  "lang": "he",
+  "style": 3,
+  "seed": 3,
+  "file": "he6-3.mp3",
+  "secs": null,
+  "heard": "נכון קמים, לא נכון נשארים לשבט.",
+  "score": 0.96
+ },
+ "he7 1": {
+  "text": "בחרו מילה, ציירו אותה במחברת והעתיקו את המשפט",
+  "lang": "he",
+  "style": 1,
+  "seed": 1,
+  "file": "he7-1.mp3",
+  "secs": null,
+  "heard": "בחרו מילה, ציירו אותה במחברת והעתיקו את המשפט.",
+  "score": 1.0
+ },
+ "he7 2": {
+  "text": "בחרו מילה, ציירו אותה במחברת והעתיקו את המשפט",
+  "lang": "he",
+  "style": 2,
+  "seed": 2,
+  "file": "he7-2.mp3",
+  "secs": null,
+  "heard": "בחרו מילה, ציירו אותה במחברת ועתיקו את המשפט.",
+  "score": 0.99
+ },
+ "he7 3": {
+  "text": "בחרו מילה, ציירו אותה במחברת והעתיקו את המשפט",
+  "lang": "he",
+  "style": 3,
+  "seed": 3,
+  "file": "he7-3.mp3",
+  "secs": null,
+  "heard": "בחרו מהילה, ציירו אותה במחברת ועתיקו את עמישפפד.",
+  "score": 0.89
+ },
+ "he8 1": {
+  "text": "בזוגות – אחד מציג או מצייר, השני שואל ומנחש באנגלית. מתחלפים!",
+  "lang": "he",
+  "style": 1,
+  "seed": 1,
+  "file": "he8-1.mp3",
+  "secs": null,
+  "heard": "בזוגות אחד מציג אומץ צעיר, השני שועל ומנחש בגלית. מתחלפים.",
+  "score": 0.92
+ },
+ "he8 2": {
+  "text": "בזוגות – אחד מציג או מצייר, השני שואל ומנחש באנגלית. מתחלפים!",
+  "lang": "he",
+  "style": 2,
+  "seed": 2,
+  "file": "he8-2.mp3",
+  "secs": null,
+  "heard": "בזוגות אחד מציג אור מצעיר, השני שועל ומנחש בגלית. מתחלפים.",
+  "score": 0.92
+ },
+ "he8 3": {
+  "text": "בזוגות – אחד מציג או מצייר, השני שואל ומנחש באנגלית. מתחלפים!",
+  "lang": "he",
+  "style": 3,
+  "seed": 3,
+  "file": "he8-3.mp3",
+  "secs": null,
+  "heard": "בזוגות אחד מציג או מציר, השני שועל ומנחש בגליץ. מתחלפים.",
+  "score": 0.92
+ },
+ "he9 1": {
+  "text": "ספר",
+  "lang": "he",
+  "style": 1,
+  "seed": 41,
+  "file": "he9-1.mp3",
+  "secs": null,
+  "heard": "ספר",
+  "score": 1.0
+ },
+ "he9 2": {
+  "text": "ספר",
+  "lang": "he",
+  "style": 2,
+  "seed": 72,
+  "file": "he9-2.mp3",
+  "secs": null,
+  "heard": "ספר",
+  "score": 1.0
+ },
+ "he9 3": {
+  "text": "ספר",
+  "lang": "he",
+  "style": 3,
+  "seed": 3,
+  "file": "he9-3.mp3",
+  "secs": null,
+  "heard": "ספר",
+  "score": 1.0
+ },
+ "he10 1": {
+  "text": "תיק",
+  "lang": "he",
+  "style": 1,
+  "seed": 31,
+  "file": "he10-1.mp3",
+  "secs": null,
+  "heard": "תיק",
+  "score": 1.0
+ },
+ "he10 2": {
+  "text": "תיק",
+  "lang": "he",
+  "style": 2,
+  "seed": 32,
+  "file": "he10-2.mp3",
+  "secs": null,
+  "heard": "‫תיק.",
+  "score": 1.0
+ },
+ "he10 3": {
+  "text": "תיק",
+  "lang": "he",
+  "style": 3,
+  "seed": 13,
+  "file": "he10-3.mp3",
+  "secs": null,
+  "heard": "תיק",
+  "score": 1.0
+ },
+ "he11 1": {
+  "text": "כדור",
+  "lang": "he",
+  "style": 1,
+  "seed": 31,
+  "file": "he11-1.mp3",
+  "secs": null,
+  "heard": "כדור",
+  "score": 1.0
+ },
+ "he11 2": {
+  "text": "כדור",
+  "lang": "he",
+  "style": 2,
+  "seed": 12,
+  "file": "he11-2.mp3",
+  "secs": null,
+  "heard": "קדוח",
+  "score": 0.5
+ },
+ "he11 3": {
+  "text": "כדור",
+  "lang": "he",
+  "style": 3,
+  "seed": 13,
+  "file": "he11-3.mp3",
+  "secs": null,
+  "heard": "כדור",
+  "score": 1.0
+ },
+ "he12 1": {
+  "text": "אוטובוס",
+  "lang": "he",
+  "style": 1,
+  "seed": 1,
+  "file": "he12-1.mp3",
+  "secs": null,
+  "heard": "אוטובוס",
+  "score": 1.0
+ },
+ "he12 2": {
+  "text": "אוטובוס",
+  "lang": "he",
+  "style": 2,
+  "seed": 2,
+  "file": "he12-2.mp3",
+  "secs": null,
+  "heard": "אוטובוס",
+  "score": 1.0
+ },
+ "he12 3": {
+  "text": "אוטובוס",
+  "lang": "he",
+  "style": 3,
+  "seed": 3,
+  "file": "he12-3.mp3",
+  "secs": null,
+  "heard": "אוטובוס",
+  "score": 1.0
+ },
+ "he13 1": {
+  "text": "בננה",
+  "lang": "he",
+  "style": 1,
+  "seed": 1,
+  "file": "he13-1.mp3",
+  "secs": null,
+  "heard": "בננה",
+  "score": 1.0
+ },
+ "he13 2": {
+  "text": "בננה",
+  "lang": "he",
+  "style": 2,
+  "seed": 22,
+  "file": "he13-2.mp3",
+  "secs": null,
+  "heard": "בננה",
+  "score": 1.0
+ },
+ "he13 3": {
+  "text": "בננה",
+  "lang": "he",
+  "style": 3,
+  "seed": 3,
+  "file": "he13-3.mp3",
+  "secs": null,
+  "heard": "בננה",
+  "score": 1.0
+ },
+ "he14 1": {
+  "text": "בלון",
+  "lang": "he",
+  "style": 1,
+  "seed": 11,
+  "file": "he14-1.mp3",
+  "secs": null,
+  "heard": "בלון.",
+  "score": 1.0
+ },
+ "he14 2": {
+  "text": "בלון",
+  "lang": "he",
+  "style": 2,
+  "seed": 2,
+  "file": "he14-2.mp3",
+  "secs": null,
+  "heard": "בלון",
+  "score": 1.0
+ },
+ "he14 3": {
+  "text": "בלון",
+  "lang": "he",
+  "style": 3,
+  "seed": 13,
+  "file": "he14-3.mp3",
+  "secs": null,
+  "heard": "בלון",
+  "score": 1.0
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "instruct": "male, child, american accent",
+ "seed": 4,
+ "speed": 0.85,
+ "text": "Hi! I'm so happy to see you. Look, a big red ball and a yellow banana. Let's play together!",
+ "picked": "of 4 seeds: f0 median 263 Hz (boy of about 8), Whisper transcript exact",
+ "hebrew": {
+  "instruct": "male, child",
+  "seed": 5,
+  "speed": 0.85,
+  "text": "שלום חברים! היום נלמד את האות בּ. תסתכלו, כדור גדול ובננה צהובה. בואו נשחק ביחד!",
+  "picked": "of 5 seeds, best Whisper match (0.87)"
+ }
+}
